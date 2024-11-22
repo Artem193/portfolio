@@ -2,25 +2,13 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+import { languages } from './languages'
+
 const resources = {
-  en: {
-    translation: {
-      "welcome": "Welcome",
-      "description": "This is a simple multilingual app",
-    }
-  },
-  ua: {
-    translation: {
-      "welcome": "Ласкаво просимо",
-      "description": "Це простий багатомовний додаток",
-    }
-  },
-  ru: {
-    translation: {
-      "welcome": "Добро пожаловать",
-      "description": "Это простое многоязычное приложение",
-    }
-  }
+  en: languages.en,
+  ua: languages.ua,
+  ru: languages.ru,
+  he: languages.he,
 };
 
 i18n

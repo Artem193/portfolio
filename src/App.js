@@ -1,22 +1,18 @@
-import { useTranslation } from 'react-i18next';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import { Home } from './components/pages/Home/Home';
 
 import './App.css';
 
+const basename = '/portfolio';
+
 function App() {
-  const { t, i18n } = useTranslation();
-
-  const changeLanguage = (lng) => {
-    i18n.changeLanguage(lng);
-  };
-
   return (
-    <div className="App">
-      <h1>{t('welcome')}</h1>
-      <p>{t('description')}</p>
-      <button onClick={() => changeLanguage('en')}>English</button>
-      <button onClick={() => changeLanguage('ua')}>Українська</button>
-      <button onClick={() => changeLanguage('ru')}>Русский</button>
-    </div>
+    <Router basename={basename}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -1,0 +1,7 @@
+body {
+  padding: 0 18px;
+
+  @media (min-width: 1024px) {
+    padding: 0 100px;
+  }
+}
