@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3a216cc8.css",
-    "main.js": "/portfolio/static/js/main.3cc77440.js",
+    "main.css": "/portfolio/static/css/main.43d777fa.css",
+    "main.js": "/portfolio/static/js/main.b0cfb217.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/whatsapp.svg": "/portfolio/static/media/whatsapp.79ab8898e38c7e3555e0.svg",
     "static/media/viber.svg": "/portfolio/static/media/viber.b202c85976a6ebf0ec8e.svg",
+    "static/media/home-img.svg": "/portfolio/static/media/home-img.fc1f3d43f02ceb68b5a5.svg",
     "static/media/gmail.svg": "/portfolio/static/media/gmail.0d90f845957e95473dfc.svg",
     "static/media/telegram.svg": "/portfolio/static/media/telegram.047d4a0d1bd9d5e096c9.svg",
     "static/media/facebook.svg": "/portfolio/static/media/facebook.ab8ea2a75699a8462a61.svg",
@@ -17,12 +18,12 @@
     "static/media/menu.svg": "/portfolio/static/media/menu.577cfcdb5ffb1953b8a6.svg",
     "static/media/ru.svg": "/portfolio/static/media/ru.799ebabebbbfa18f82f3.svg",
     "static/media/ua.svg": "/portfolio/static/media/ua.155f759ee95ab5294071.svg",
-    "main.3a216cc8.css.map": "/portfolio/static/css/main.3a216cc8.css.map",
-    "main.3cc77440.js.map": "/portfolio/static/js/main.3cc77440.js.map",
+    "main.43d777fa.css.map": "/portfolio/static/css/main.43d777fa.css.map",
+    "main.b0cfb217.js.map": "/portfolio/static/js/main.b0cfb217.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a216cc8.css",
-    "static/js/main.3cc77440.js"
+    "static/css/main.43d777fa.css",
+    "static/js/main.b0cfb217.js"
   ]
 }
